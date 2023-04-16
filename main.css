@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+}
+
+body{
+    background: linear-gradient(90deg,
+    rgb(60, 148, 221) 0%,
+    rgb(33, 31, 199) 100%);
+}
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header, footer {
+    background-color: rgb(52, 28, 107);
+    padding-top: 16px;
+    color: #fff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header > .container,
+footer > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:  16px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+nav {
+    background-color: rgb(169, 121, 214);
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.the-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.the-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.form-campo input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    max-width: 120px;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(70, 28, 107);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+} 
+
+form button:hover {
+    background-color: rgb(150, 72, 218);
+}
+
+#sobre-o-site img {
+    max-width: 400px;
+    margin-bottom: 24px;
+}
+
+section {
+    padding: 48px;
+}
+
+section p {
+    color: rgb(255, 248, 248);
+}
+
+section h1, h2 {
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
